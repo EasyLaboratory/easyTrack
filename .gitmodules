@@ -13,3 +13,4 @@
 [submodule "src/test"]
 	path = src/test
 	url = https://github.com/EasyLaboratory/test.git
+	branch = main
