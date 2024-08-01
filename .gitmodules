@@ -1,9 +1,12 @@
 [submodule "src/perception"]
 	path = src/perception
 	url = https://github.com/EasyLaboratory/perception.git
+	branch = main
 [submodule "src/cmd2airsim"]
 	path = src/cmd2airsim
 	url = https://github.com/EasyLaboratory/cmd2airsim.git
+	branch = master
 [submodule "src/catkin_simple"]
 	path = src/catkin_simple
 	url = https://github.com/catkin/catkin_simple.git
+	branch = master
