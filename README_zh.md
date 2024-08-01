@@ -40,7 +40,7 @@ roslaunch se3controller flying_example.launch
 
 ## 其他信息
 
-有关 `easyGL` 脚本的更多信息，请查看 [EasyGL README](https://github.com/EasyLaboratory/perception/tree/main/scripts/easyGL#readme)。
+有关如何从深度相机获取3D位置的信息，请参阅 [EasyGL README](https://github.com/EasyLaboratory/perception/tree/main/scripts/easyGL#readme)。
 
 ---
 
