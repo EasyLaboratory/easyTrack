@@ -29,3 +29,18 @@ To update the submodules to the latest commit referenced by the main repository,
 git submodule update --remote --merge
 ```
 This fetches the latest changes from the submodule repositories and merges them with your local copy.
+
+## Test Controller
+
+
+```sh
+cd easyTrack
+catkin_make
+source your ws/devel/setup.bash 
+roslaunch airsim_ros_pkgs airsim_node.launch 
+roslaunch se3controller test_controller.launch
+roslaunch se3controller flying_example.launch 
+```
+
+
+
