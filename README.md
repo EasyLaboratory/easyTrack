@@ -27,14 +27,27 @@ This fetches the latest changes from the submodule repositories and merges them 
 ```sh
 cd easyTrack
 catkin_make
-source your ws/devel/setup.bash 
+echo "source $(pwd)/devel/setup.bash" >> ~/.bashrc  ## install your ws into bashrc
 roslaunch airsim_ros_pkgs airsim_node.launch 
-roslaunch se3controller test_controller.launch
-roslaunch se3controller flying_example.launch 
+roslaunch se3controller se3controller.launch
+roslaunch se3controller flying_example.launch
 ```
 ![2024-08-01 10-37-40 的屏幕截图](https://github.com/user-attachments/assets/25501f8c-ecf3-4bd3-9f52-944537dcb7a3)
 
 
+## Yolo detection
 
+Install virtual environment
+```sh
+pip install virtualenv
+cd src/perception
+virtualenv yolo_venv
+source yolo_venv/bin/activate
+pip install -r requirements.txt
+```
+Start the Yolo detection by
 
+```sh
+roslaunch perception perception.launch
+```
 
