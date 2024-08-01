@@ -41,6 +41,9 @@ roslaunch airsim_ros_pkgs airsim_node.launch
 roslaunch se3controller test_controller.launch
 roslaunch se3controller flying_example.launch 
 ```
+![2024-08-01 10-37-40 的屏幕截图](https://github.com/user-attachments/assets/25501f8c-ecf3-4bd3-9f52-944537dcb7a3)
+
+
 
 
 
