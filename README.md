@@ -2,6 +2,8 @@
 
 Welcome to the `easyTrack` repository! This project uses Git submodules to manage dependencies. This guide will help you clone the repository, work with submodules, and update or submit changes.
 
+For the Chinese version, please visit [中文版本](README_zh.md).
+
 ## Cloning the Repository
 
 To clone the `easyTrack` repository, use the following command:
@@ -23,11 +25,13 @@ git submodule update --remote --merge
 ```
 This fetches the latest changes from the submodule repositories and merges them with your local copy.
 
+
 ## Test Controller
 ```sh
 cd easyTrack
 catkin_make
 echo "source $(pwd)/devel/setup.bash" >> ~/.bashrc  ## install your ws into bashrc
+launch your game
 roslaunch airsim_ros_pkgs airsim_node.launch 
 roslaunch se3controller se3controller.launch
 roslaunch se3controller flying_example.launch
@@ -48,6 +52,9 @@ pip install -r requirements.txt
 Start the Yolo detection by
 
 ```sh
+launch game
 roslaunch perception perception.launch
 ```
+Ref to the [EasyGL README](https://github.com/EasyLaboratory/perception/tree/main/scripts/easyGL#readme) for 3D position retrieval from a depth camera.
+
 
