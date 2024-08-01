@@ -10,3 +10,6 @@
 	path = src/catkin_simple
 	url = https://github.com/catkin/catkin_simple.git
 	branch = master
+[submodule "src/test"]
+	path = src/test
+	url = https://github.com/EasyLaboratory/test.git
