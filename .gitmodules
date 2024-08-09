@@ -17,3 +17,4 @@
 [submodule "src/easy-planner"]
 	path = src/easy-planner
 	url = https://github.com/EasyLaboratory/easy-planner.git
+	branch = main
