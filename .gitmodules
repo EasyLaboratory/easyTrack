@@ -14,3 +14,6 @@
 	path = src/test
 	url = https://github.com/EasyLaboratory/test.git
 	branch = main
+[submodule "src/easy-planner"]
+	path = src/easy-planner
+	url = git@github.com:EasyLaboratory/easy-planner.git
