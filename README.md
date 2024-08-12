@@ -32,7 +32,6 @@ cd easyTrack
 catkin_make
 echo "source $(pwd)/devel/setup.bash" >> ~/.bashrc  ## install your ws into bashrc
 ##launch your game firstly
-roslaunch airsim_ros_pkgs airsim_node.launch 
 roslaunch se3controller se3controller.launch
 roslaunch se3controller flying_example.launch
 ```
