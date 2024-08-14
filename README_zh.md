@@ -24,6 +24,12 @@ git submodule update --remote --merge
 
 这将从子模块仓库中获取最新的更改，并将其与本地副本合并。
 
+安装ros依赖包
+、、、sh
+sudo apt update
+sudo apt install ros-noetic-mavros-msgs
+sudo apt install ros-noetic-tf2-sensor-msgs
+、、、
 ## 测试控制器
 
 ```sh
