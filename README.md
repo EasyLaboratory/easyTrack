@@ -24,12 +24,14 @@ To update the submodules to the latest commit referenced by the main repository,
 git submodule update --remote --merge
 ```
 This fetches the latest changes from the submodule repositories and merges them with your local copy.
+
 Install ros dependency:
-、、、sh
-sudo apt update
+
+```sh
 sudo apt install ros-noetic-mavros-msgs
 sudo apt install ros-noetic-tf2-sensor-msgs
-、、、
+```
+
 
 ## Test Controller
 ```sh
