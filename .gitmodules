@@ -18,3 +18,7 @@
 	path = src/easy-planner
 	url = https://github.com/EasyLaboratory/easy-planner.git
 	branch = main
+[submodule "src/decision"]
+	path = src/decision
+	url = https://github.com/EasyLaboratory/decision.git
+	branch = main
