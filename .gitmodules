@@ -21,3 +21,4 @@
 [submodule "src/perception"]
 	path = src/perception
 	url = https://github.com/EasyLaboratory/perception.git
+	branch = main
