@@ -1,7 +1,3 @@
-[submodule "src/perception"]
-	path = src/perception
-	url = https://github.com/EasyLaboratory/perception.git
-	branch = main
 [submodule "src/cmd2airsim"]
 	path = src/cmd2airsim
 	url = https://github.com/EasyLaboratory/cmd2airsim.git
@@ -22,3 +18,6 @@
 	path = src/decision
 	url = https://github.com/EasyLaboratory/decision.git
 	branch = main
+[submodule "src/perception"]
+	path = src/perception
+	url = https://github.com/EasyLaboratory/perception.git
