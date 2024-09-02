@@ -33,8 +33,7 @@ sudo apt install ros-noetic-tf2-sensor-msgs
 ```
 
 ## Download Simulator
-A multiplayer game [] https://github.com/9woods123/simulator
-
+A multiplayer game  [Modified AirSim] https://github.com/9woods123/simulator featuring a simulated drone and a keyboard-controlled car.
 ## Test Controller
 ```sh
 cd easyTrack
