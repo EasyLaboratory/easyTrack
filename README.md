@@ -32,6 +32,8 @@ sudo apt install ros-noetic-mavros-msgs
 sudo apt install ros-noetic-tf2-sensor-msgs
 ```
 
+## Download Simulator
+A multiplayer game [] https://github.com/9woods123/simulator
 
 ## Test Controller
 ```sh
