@@ -2,4 +2,4 @@ build/
 devel/
 .catkin_workspace
 .vscode
-src/easy_msgs/
+
