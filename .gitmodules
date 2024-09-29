@@ -25,3 +25,4 @@
 [submodule "src/easy_msgs"]
 	path = src/easy_msgs
 	url = https://github.com/EasyLaboratory/easy_msgs.git
+	branch = main
