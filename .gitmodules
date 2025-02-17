@@ -14,10 +14,6 @@
 	path = src/decision
 	url = https://github.com/EasyLaboratory/decision.git
 	branch = main
-[submodule "src/perception"]
-	path = src/perception
-	url = https://github.com/EasyLaboratory/perception.git
-	branch = main
 [submodule "src/easy_msgs"]
 	path = src/easy_msgs
 	url = https://github.com/EasyLaboratory/easy_msgs.git
