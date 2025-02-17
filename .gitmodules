@@ -24,4 +24,4 @@
 	branch = main
 [submodule "src/pp"]
 	path = src/pp
-	url = git@github.com:EasyLaboratory/pp.git
+	url = https://github.com/EasyLaboratory/pp.git
