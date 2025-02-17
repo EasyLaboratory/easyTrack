@@ -21,3 +21,6 @@
 [submodule "src/pp"]
 	path = src/pp
 	url = https://github.com/EasyLaboratory/pp.git
+[submodule "src/perception"]
+	path = src/perception
+	url = https://github.com/EasyLaboratory/perception.git
