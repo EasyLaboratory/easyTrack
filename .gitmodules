@@ -22,3 +22,6 @@
 	path = src/easy_msgs
 	url = https://github.com/EasyLaboratory/easy_msgs.git
 	branch = main
+[submodule "src/pp"]
+	path = src/pp
+	url = git@github.com:EasyLaboratory/pp.git
